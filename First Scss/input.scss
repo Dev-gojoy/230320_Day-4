@@ -1,0 +1,27 @@
+@use "color";
+
+div {
+  h1 {
+    background-color: color.$offBlack;
+  }
+
+  h2 {
+    background-color: color.$rosePink;
+  }
+
+  h3 {
+    background-color: color.$darkRed;
+  }
+  h4 {
+    background-color: color.$seaGreen;
+  }
+  h5 {
+    background-color: color.$lightGray;
+  }
+
+  a {
+    h6 {
+      background-color: color.$magenta;
+    }
+  }
+}
